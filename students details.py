@@ -1,0 +1,11 @@
+name=input("name of student:")
+rollno=int(input("enetr the rollno:"))
+marksofcourse1=int(input("enter the marks of course 1:"))
+marksofcourse2=int(input("enter the marks of course 2:"))
+marksofcourse3=int(input("enter the marks of course 3:"))
+totalmarksobtained=marksofcourse1+marksofcourse2+marksofcourse3
+percentage=(totalmarksobtained)/300*100
+print("name of student=",name)
+print("roll no of the student=",rollno)
+print("total marks obtained by student=",totalmarksobtained)
+print(f"percentage of student={percentage:.2f}")
